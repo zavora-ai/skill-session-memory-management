@@ -1,11 +1,11 @@
 ---
 name: session-memory-management
 description: Manage session state and memory — store/retrieve typed data, replay snapshots, resume interrupted workflows, and redact sensitive information. Use when persisting context, resuming workflows, recalling previous data, managing cross-session memory, or cleaning up sensitive state.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-session-memory server connected.
 allowed-tools: [get_session_state, list_session_events, retrieve_memory, store_memory, update_memory, delete_memory, redact_memory, list_memory_refs, create_replay_snapshot, resume_session]
-tags: [infrastructure, memory, session, state, persistence]
 metadata:
+  category: platform
   author: Zavora AI
   mcp-server: mcp-session-memory
   success-criteria:
